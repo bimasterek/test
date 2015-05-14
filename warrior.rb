@@ -1,4 +1,4 @@
-ass Player
+class Player
   def play_turn(warrior)
     if @health && @health > warrior.health
       if warrior.feel.empty?
@@ -27,7 +27,7 @@ ass Player
     # cool code goes here
   end
 end
-  
+
 
 class Player
   def play_turn(warrior)
