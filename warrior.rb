@@ -48,6 +48,8 @@ class Player
     @last_health = warrior.health
   end
 end
+
+
 class Player
   def play_turn(warrior)
     @direction ||= :forward
