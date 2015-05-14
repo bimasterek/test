@@ -11,6 +11,8 @@ class Player
       else
         warrior.attack!(@direction)
       end
+      
+      
     elsif @last_health && @last_health >  warrior.health
      if warrior.health < 10
       @direction = @direction == :forward ? :backward : :forward
